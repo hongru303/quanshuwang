@@ -9,7 +9,7 @@ Chrome
 ### 分析过程：
 打开全书网的官网，找一个喜欢看的小说进入目录界面
 
-![quanshu](F:\Photo\Github\quanshu.JPG)
+![quanshu](quanshu.JPG)
 
 首先我们先请求这个网址，得到网页源码
 
@@ -45,11 +45,11 @@ def get_parse_xpath(html):
 
 这里看看输出的结果是一个元祖，元祖里面有三个列表，分别对应返回的链接，正文，标题
 
-![quanshu3](F:\Photo\Github\quanshu3.JPG)
+![quanshu3](quanshu3.JPG)
 
 这里已经拿到了所有章节的url了，接下来我们可以继续使用requests请求它们，遍历一下所有的url看看
 
-![quanshu4](F:\Photo\Github\quanshu4.JPG)
+![quanshu4](quanshu4.JPG)
 
 既然我们已经做好了请求模块，就可以继续调用这个请求模块
 
@@ -65,6 +65,6 @@ def get_parse_xpath(html):
 
 这里放上我保存数据的截图
 
-![quanshu5](F:\Photo\Github\quanshu5.JPG)
+![quanshu5](quanshu5.JPG)
 
 有需要的朋友可以试试，欢迎挑错和改善！！！
